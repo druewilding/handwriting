@@ -1,4 +1,4 @@
-# aimeefont
+# Drue's handwriting
 
 my handwriting as a font
 
@@ -8,9 +8,9 @@ my handwriting as a font
 
 Add the following CSS stylesheet:
 
-    <link rel="stylesheet" href="https://aimeerivers.github.io/aimeefont/web/stylesheet.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="https://www.druewilding.com/handwriting/web/stylesheet.css" type="text/css" charset="utf-8" />
 
-Add `class="aimeefont"` to any element to use the font.
+Add `class="handwriting"` to any element to use the font.
 
 ## How to download it
 
