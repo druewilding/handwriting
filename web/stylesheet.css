@@ -1,35 +1,35 @@
 @font-face {
-  font-family: 'aimeefont';
-  src: url('aimeefont-regular-webfont.woff2') format('woff2'),
-    url('aimeefont-regular-webfont.woff') format('woff');
+  font-family: 'handwriting';
+  src: url('handwriting-regular-webfont.woff2') format('woff2'),
+    url('handwriting-regular-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'aimeefont';
-  src: url('aimeefont-bold-webfont.woff2') format('woff2'),
-    url('aimeefont-bold-webfont.woff') format('woff');
+  font-family: 'handwriting';
+  src: url('handwriting-bold-webfont.woff2') format('woff2'),
+    url('handwriting-bold-webfont.woff') format('woff');
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'aimeefont';
-  src: url('aimeefont-italic-webfont.woff2') format('woff2'),
-    url('aimeefont-italic-webfont.woff') format('woff');
+  font-family: 'handwriting';
+  src: url('handwriting-italic-webfont.woff2') format('woff2'),
+    url('handwriting-italic-webfont.woff') format('woff');
   font-weight: normal;
   font-style: italic;
 }
 
 @font-face {
-  font-family: 'aimeefont';
-  src: url('aimeefont-bolditalic-webfont.woff2') format('woff2'),
-    url('aimeefont-bolditalic-webfont.woff') format('woff');
+  font-family: 'handwriting';
+  src: url('handwriting-bolditalic-webfont.woff2') format('woff2'),
+    url('handwriting-bolditalic-webfont.woff') format('woff');
   font-weight: bold;
   font-style: italic;
 }
 
-.aimeefont {
-  font-family: 'aimeefont', Arial, sans-serif;
+.handwriting {
+  font-family: 'handwriting', Arial, sans-serif;
 }
