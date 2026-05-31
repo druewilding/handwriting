@@ -1,83 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Drue's handwriting</title>
-  <link rel="stylesheet" href="https://www.druewilding.com/handwriting/web/stylesheet.css" type="text/css" charset="utf-8" />
+  <link rel="stylesheet" href="https://unpkg.com/klods-css/dist/klods.min.css">
+  <link rel="stylesheet" href="https://www.druewilding.com/handwriting/web/stylesheet.css" type="text/css"
+    charset="utf-8" />
   <style>
-    body {
-      background-color: #222;
-      color: #ccc;
-      padding: 1em;
-    }
-
-    code {
-      background-color: #444;
-      font-weight: bold;
-      padding: 0.2em;
-      border-radius: 0.2em;
-      letter-spacing: 2px;
-    }
-
-    h1 {
-      font-size: 4em;
-    }
-
-    h2 {
-      font-size: 3em;
-    }
-
-    p {
-      font-size: 1.5em;
-    }
-
-    table {
-      border-collapse: collapse;
-    }
-
-    td {
+    /* demo-specific: large font size for the font specimen */
+    .klods-table td {
       font-size: 40px;
-      padding: 0.5em;
-      border: 1px solid #888;
-    }
-
-    a {
-      color: #eee;
-      font-weight: bold;
     }
   </style>
 </head>
 
-<body class="handwriting">
-  <h1>Drue's handwriting</h1>
-  <p>my handwriting as a font</p>
+<body>
+  <div class="klods-page">
+    <header class="klods-header">
+      <span class="handwriting" style="font-size: 1.5rem;">Drue's handwriting</span>
+    </header>
 
-  <h2>Examples</h2>
-  <table>
-    <tr>
-      <td>Regular, 40px</td>
-      <td style="font-style: italic;">Italic, 40px</td>
-    </tr>
-    <tr>
-      <td style="font-weight: bold;">Bold, 40px</td>
-      <td style="font-weight: bold; font-style: italic;">Bold Italic, 40px</td>
-    </tr>
-  </table>
+    <main class="klods-content klods-stack">
+      <section class="klods-stack">
+        <h1 class="handwriting" style="font-size: 3rem;">Drue's handwriting</h1>
+        <p class="klods-lead handwriting">my handwriting as a font</p>
+      </section>
 
-  <h2>How to use it</h2>
-  <p>Add the following CSS stylesheet:</p>
-  <p><code
-      class="handwriting">&lt;link rel="stylesheet" href="https://www.druewilding.com/handwriting/web/stylesheet.css" type="text/css" charset="utf-8" /&gt;</code>
-  </p>
+      <section class="klods-stack">
+        <h2 class="handwriting">Examples</h2>
+        <table class="klods-table">
+          <tr>
+            <td class="handwriting">Regular, 40px</td>
+            <td class="handwriting" style="font-style: italic;">Italic, 40px</td>
+          </tr>
+          <tr>
+            <td class="handwriting" style="font-weight: bold;">Bold, 40px</td>
+            <td class="handwriting" style="font-weight: bold; font-style: italic;">Bold Italic, 40px</td>
+          </tr>
+        </table>
+      </section>
 
-  <p>Add <code class="handwriting">class="handwriting"</code> to any element to use the font.</p>
+      <section class="klods-stack">
+        <h2 class="handwriting">How to use it</h2>
+        <p class="handwriting">Add the following CSS stylesheet:</p>
+        <pre><code>&lt;link rel="stylesheet" href="https://www.druewilding.com/handwriting/web/stylesheet.css" type="text/css" charset="utf-8" /&gt;</code></pre>
+        <p class="handwriting">Add <code>class="handwriting"</code> to any element to use the font.</p>
+      </section>
 
-  <h2>How to download it</h2>
-  <p>Download the font files from <a
-      href="https://github.com/druewilding/handwriting">github.com/druewilding/handwriting</a>.</p>
-  <p>You will find OTF and TTF versions in the dist folder, which you can install on your computer.</p>
+      <section class="klods-stack">
+        <h2 class="handwriting">How to download it</h2>
+        <p class="handwriting">Download the font files from <a
+            href="https://github.com/druewilding/handwriting">github.com/druewilding/handwriting</a>.</p>
+        <p class="handwriting">You will find OTF and TTF versions in the dist folder, which you can install on your
+          computer.</p>
+      </section>
+    </main>
+
+    <footer class="klods-footer">
+      <p class="klods-muted handwriting">druewilding.com</p>
+    </footer>
+  </div>
 </body>
 
 </html>
